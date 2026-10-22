@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# ai-merge-resolve — primary operation: AI-powered merge-conflict resolver CLI.
+# Usage: bin/run <repo-or-conflict-path> [options]  (see `node dist/cli.js --help`)
+set -euo pipefail
+cd "$(dirname "$0")/.."
+[ -f dist/cli.js ] || { echo "dist/cli.js missing — run `npm run build` first" >&2; exit 1; }
+exec node dist/cli.js "$@"
