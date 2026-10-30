@@ -1,0 +1,11 @@
+{
+  "product": "ai-merge-resolve",
+  "path": "/home/toxic/pens/ranch/products/ai-merge-resolve",
+  "files": 6,
+  "detected_at": "2026-10-30T06:11:03.099699Z",
+  "env_vars": {
+    "file": [
+      "src/cli.ts"
+    ]
+  }
+}
